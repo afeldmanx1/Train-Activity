@@ -12,7 +12,7 @@ firebase.initializeApp(config);
 
 
 var database = firebase.database();
-//Shows user the current time
+//Current time
 $("#currentTime").append(moment().format("hh:mm A"));
 
 // Button for adding trains
